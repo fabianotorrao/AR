@@ -18,7 +18,10 @@
     </a-marker>
         
      <a-marker preset='kanji'>
-        <a-box position='0 0.5 0' material='color: red;'></a-box>
+        <a-entity
+  geometry="primitive: plane; height: auto; width: auto"
+  material="color: blue"
+  text="width: 4; value: This text will be 4 units wide."></a-entity>
         </a-marker>
         <!-- define a simple camera -->
     <a-entity camera></a-entity>
